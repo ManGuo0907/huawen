@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  background-color: #f6f6f6;
+  height: 1500px;
+}
+
+.center-block {
+  width: 70%;
+  margin: 0 auto;
+}
+/* 头部开始  */
+.header {
+  height: 59px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.left img {
+  height: 59px;
+  display: block;
+  float: left;
+}
+
+.left h1 {
+  float: left;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px black, 2px 2px 1px #9fc7fe;
+  text-align: center;
+  margin: 5px 10px 0px;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.right a {
+  display: block;
+  float: right;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px black, 2px 2px 1px #9fc7fe;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: black;
+  margin: 5px 10px 0px;
+}
+
+a:hover {
+  color: azure;
+}
+/* 头部结束  */
+/* boby开始 */
+.middle {
+  height: 500px;
+}
+.middle div img {
+  height: 500px;
+  width: 100%;
+}
+/* 关于我们开始 */
+.about {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC",
+    Verdana, Arial, "微软雅黑", "宋体";
+  font-weight: bold;
+  opacity: 0.7;
+  line-height: 25px;
+}
+/* 关于我们结束 */
+/* 我们的业务开始 */
+.business {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC",
+    Verdana, Arial, "微软雅黑", "宋体";
+  font-weight: bold;
+  opacity: 0.9;
+  line-height: 25px;
+}
+/* 我们的业务结束 */
+/* 联系我们开始 */
+.contact {
+  background-color: #545b65;
+}
+/* 联系我们结束 */
